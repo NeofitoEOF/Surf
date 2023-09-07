@@ -23,7 +23,6 @@ export class SetupServer extends Server {
     this.addControllers(forecastController);
   }
 
-
   public getApp(): Application {
     return this.app;
   }

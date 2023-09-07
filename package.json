@@ -12,6 +12,7 @@
     "test:functional": "jest --projects ./test --forceExit --runInBand",
     "style:check": "prettier --check 'src/**/*.ts' 'test/**/*.ts'",
     "style:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
+    "test:unit": "jest",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
